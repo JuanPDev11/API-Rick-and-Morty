@@ -1,0 +1,52 @@
+body{
+  background-color: #e5e5f7;
+  opacity: 1;
+  background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e5e5f7 10px ), repeating-linear-gradient( #98828255, #988282 );
+}
+
+.app-container{
+  text-align: center;
+}
+.btn-prev{
+  cursor: pointer;
+  margin: 30px 10px;
+  background: #000;
+  color: #fff;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 10px;
+}
+
+.btn-next{
+  cursor: pointer;
+  margin: 30px 10px;
+  background: #000;
+  color: #fff;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 10px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 85%;
+  margin: auto;
+  gap: 55px;
+}
+
+.card-container{
+  background: rgba(0,0,0,0.5);
+  border-radius: 20px;
+}
+
+img{
+  width: 250px;
+  padding-top: 40px;
+  transition: .2s;
+  border-radius: 40px;
+}
+
+img:hover{
+  width: 253px;
+}
